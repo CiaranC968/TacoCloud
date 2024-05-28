@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taco Cloud</title>
+    <link rel="stylesheet" th:href="@{/styles.css}" />
+</head>
+
+<body>
+<div class="container">
+    <header>
+        <h1>Welcome to Taco Cloud!</h1>
+    </header>
+
+    <main>
+        <figure>
+            <img th:src="@{/images/taco.png}" alt="Taco Cloud Logo" class="logo"/>
+        </figure>
+
+        <nav>
+            <a href="/design" class="button">Design a Taco</a>
+        </nav>
+    </main>
+</div>
+</body>
+</html>
